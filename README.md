@@ -1,7 +1,7 @@
-# general-solutions
+# React Native
 
-Kill already running port in ubuntu:
-
-sudo lsof -t -i:4000 (returns pid number)
-
-sudo kill (pid number)
+Dynamic adjustment of image on all devices (Android & IOS)
+```
+ width: "100%",
+ height: (Dimensions.get('screen').width / 1.7) * 0.692,
+```
