@@ -1,7 +1,7 @@
-# general-solutions
+# Flutter extensions
 
-Kill already running port in ubuntu:
-
-sudo lsof -t -i:4000 (returns pid number)
-
-sudo kill (pid number)
+- jsontodart
+- cached_network_image
+- flutter_dotenv
+- http
+- shared_preferences
